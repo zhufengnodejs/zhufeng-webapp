@@ -10,7 +10,6 @@ export default class RouterMap extends Component{
   render(){
       return (
           <Router>
-              {/*当访问/的时候返回首页组件*/}
               <Route path="/" component={Home}/>
           </Router>
       )
